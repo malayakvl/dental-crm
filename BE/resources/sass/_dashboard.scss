@@ -1,0 +1,67 @@
+.dashboard-content {
+    .counter-icon {
+        margin-bottom: 1rem;
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+        text-align: center;
+        font-size: 24px;
+    }
+    .bg-primary-gradient {
+        background: linear-gradient(to bottom right, #9e88f5 0%, #6259ca 100%) !important;
+    }
+    .brround {
+        border-radius: 50% !important;
+    }
+    .box-shadow-primary {
+        box-shadow: 0 5px 10px #c4cdeb;
+    }
+    .col {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 0.75rem;
+        padding-left: 0.75rem;
+    }
+    .col-auto {
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: auto;
+        max-width: none;
+    }
+    .text-primary {
+        color: #6259ca !important;
+    }
+    .bg-danger-gradient {
+        background-image: linear-gradient(to bottom right, #f1bf64 0%, #f71d36 100%) !important;
+    }
+    .bg-secondary-gradient {
+        background: linear-gradient(to bottom right, #9070ff 0%, #ff5d9e 100%) !important;
+    }
+    .bg-success-gradient {
+        background: linear-gradient(to bottom right, #4be8d4 0%, #129bd2 100%) !important;
+    }
+    .card-header {
+        background: none;
+        padding: 1rem 1.5rem;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-bottom: 0;
+        background-color: transparent;
+        border-bottom: 1px solid #eaedf1;
+
+        h3 {
+            font-size: 16px;
+            font-weight: 700;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+}

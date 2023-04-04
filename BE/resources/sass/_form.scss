@@ -1,0 +1,122 @@
+.form-control {
+    font-size: 14px;
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+
+.form-label {
+    //font-weight: normal !important;
+    opacity: 0.9;
+}
+
+.required:after {
+    content: "*";
+    color: red;
+}
+
+::placeholder {
+    opacity: 0.5 !important;
+}
+
+.btn {
+    padding: 0.25rem 0.55rem;
+
+    font-size: 13px;
+    &:hover {
+        opacity: 0.7;
+    }
+    &:focus {
+        box-shadow: none !important;
+    }
+
+}
+
+.pink, .pink-btn {
+    background: rgb(255, 127, 171) !important;
+    border-color: rgb(255, 127, 171) !important;
+    color: #fff !important;
+    &:hover, &:active, &:focus {
+        background: rgb(255, 127, 171) !important;
+        border-color: rgb(255, 127, 171) !important;
+        color: #fff !important;
+    }
+}
+
+.violet {
+    background: rgb(168, 117, 255);
+    border-color: rgb(168, 117, 255);
+    color: #fff;
+    &:hover, &:active, &:focus {
+        background: rgb(168, 117, 255);
+        border-color: rgb(168, 117, 255);
+        color: #fff;
+    }
+}
+.green {
+    background: rgb(46, 205, 111);
+    border-color: rgb(46, 205, 111);
+    color: #fff;
+    &:hover, &:active, &:focus {
+        background: rgb(46, 205, 111);
+        border-color: rgb(46, 205, 111);
+        color: #fff;
+    }
+}
+.gray {
+    background: rgb(181, 188, 194);
+    border-color: rgb(181, 188, 194);
+    color: #fff;
+    &:hover, &:active, &:focus {
+        background: rgb(181, 188, 194);
+        border-color: rgb(181, 188, 194);
+        color: #fff;
+    }
+}
+.yellow {
+    background: rgb(255, 250, 120);
+    border-color: rgb(255, 250, 120);
+    color: #fff;
+    &:hover, &:active, &:focus {
+        background: rgb(255, 250, 120);
+        border-color: rgb(255, 250, 120);
+        color: #fff;
+    }
+}
+
+.error {
+    color: #f57f6c;
+    font-size: 12px;
+}
+
+.patient-form {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    z-index: 10001;
+    display: none;
+    min-width: 320px;
+    max-width: 500px;
+}
+
+.select-opt {
+    text-transform: uppercase;
+    font-style: italic !important;
+    font-weight: bold;
+    color: rgb(168, 117, 255);
+}
+.vue__time-picker input.display-time {
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+}
+.ant-form-item {
+    margin-bottom: 4px !important;
+}
+.ant-form-item-label {
+    line-height: inherit !important;
+}
+.patient-add-form {
+    border:solid 1px #d9d9d9;
+    padding: 15px;
+    background-color: rgba(129, 177, 255, 0.1)
+}

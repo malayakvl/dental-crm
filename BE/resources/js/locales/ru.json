@@ -1,0 +1,21 @@
+{
+  "version": "версия",
+  "staff": {
+      "ceo": "Руководитель",
+      "administrator": "Администратор",
+      "doctor": "Врач",
+      "assistent": "Ассистент"
+  },
+  "statuses": {
+        "planned": "Запланирован",
+        "confirm": "Подтвержден",
+        "done": "Выполнен",
+        "missed": "Пропущен",
+        "postponed": "Перенесен",
+        "noanswer": "Не дозвонились",
+        "late": "Опаздывает",
+        "inclicnic": "В клинике",
+        "incabinet": "В кабинете",
+        "decline": "Отменен"
+  }
+}

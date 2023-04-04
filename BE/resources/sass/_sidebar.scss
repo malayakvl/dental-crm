@@ -1,0 +1,63 @@
+.v-sidebar-menu {
+    font-size: 14px;
+    border-right: solid 1px #e9ebf0;
+
+    .logo {
+        margin-left: 17px;
+    }
+
+    .form-search {
+        padding: 0px 15px;
+    }
+}
+.vsm--title {
+    font-size: 13.5px;
+}
+.v-sidebar-menu.vsm_white-theme .vsm--link_level-1 .vsm--icon {
+    background-color: rgba(129, 177, 255, 0.1) !important;
+    color: rgb(129, 177, 255) !important;
+}
+.v-sidebar-menu {
+    //top: 210px !important;
+}
+.v-sidebar-menu.vsm_white-theme.vsm_expanded .vsm--item_open .vsm--link_level-1 {
+    color: #000 !important;
+    font-weight: 700;
+    background-color: #fff !important;
+}
+.vsm--link_level-1.vsm--link_active .vsm--icon {
+    color: #000 !important;
+    background-color: #262626;
+}
+.v-sidebar-menu.vsm_white-theme .vsm--dropdown .vsm--list {
+    background-color: #fff !important;
+}
+.vsm--link_level-2 .vsm--title {
+    padding-left: 35px;
+}
+.v-sidebar-menu .vsm--link {
+    padding: 5px 10px !important;
+}
+.v-sidebar-menu .vsm--dropdown > .vsm--list {
+    padding: 0px 5px !important;
+}
+.vsm--toggle-btn {
+    position: absolute;
+    top: -6px !important;
+    width: 20px !important;
+    right: 16px !important;
+    background: none !important;
+    z-index: 999;
+}
+
+.v-sidebar-menu .vsm--toggle-btn::after {
+    content: '\f100' !important;
+    color: #0d6efd !important;
+    font-size: 16px;
+}
+
+.badge-notice {
+    background-color:rgb(255, 127, 171) !important;
+    color: #fff !important;
+    //border-radius: 50% !important;
+}

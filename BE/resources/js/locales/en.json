@@ -1,0 +1,9 @@
+{
+    "version": "version!",
+    "staff": {
+        "ceo": "Руководитель",
+        "administrator": "Администратор",
+        "doctor": "Врач",
+        "assistent": "Ассистент"
+    }
+}

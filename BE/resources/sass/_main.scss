@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,600&display=swap');
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "components/page";
+
+@import "node_modules/bootstrap/scss/bootstrap";
+//@import "fonts";
+@import "header";
+@import "panel";
+@import "sidebar";
+@import "form";
+@import "table";
+@import "dashboard";
+@import "autocomplete";
+@import "notification";
+@import "staff";
+@import "modal";
+@import "scheduler";
+
+//@import "scheduler/dhtmlxscheduler_material.css";
+
+body, html {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.right-container {
+    width: calc(100vw - 32px);
+}
+#demo {
+    padding-left: 269px;
+    transition: 0.3s ease;
+}
+#demo.collapsed {
+    padding-left: 65px;
+}
+#demo.onmobile {
+    padding-left: 65px;
+}
+
+
+h1 {
+    font-size: var(--bs-body-font-size);
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+//.panel {
+//    border-radius: 6px;
+//    border: 1px solid rgba(127,127,127,.06);
+//    display: block;
+//    margin: 0 -5px 30px -15px;
+//    padding: 0 15px 0 35px;
+//}
+//.blue-panel {
+//    background-color: rgba(129, 177, 255, 0.06);
+//    border-left-color: rgb(129, 177, 255);
+//    border-left-width: 5px;
+//    padding-left: 15px;
+//    padding-top: 15px;
+//    padding-bottom: 15px;
+//    margin: 10px;
+//}
+
+.avatar {
+    width: 28px;
+    height: 28px;
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Gotham Pro,arial,serif;
+    font-weight: 400;
+    font-size: 10px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    color: hsla(0,0%,100%,.9);
+    text-transform: uppercase;
+    padding: 0;
+    position: relative;
+    border: 1px solid #f1f1f1;
+    background-color:rgb(181, 188, 194);
+
+    i {
+        font-size: 20px;
+        margin-top: 7px;
+    }
+}
+
+.alert {
+    font-size: 14px;
+    font-family: "Gotham Pro Medium";
+    padding: 0.5rem !important;
+    margin-bottom: 20px;
+}
+
+.c-green {
+    color: rgb(46, 205, 111);
+}
+.c-gray {
+    color: rgb(181, 188, 194);
+}
+

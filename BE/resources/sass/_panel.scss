@@ -1,0 +1,103 @@
+.left-sidebar {
+    .vsm_custom-theme {
+        @apply h-screen bg-gray-450;
+    }
+    //border-right: 1px solid #e9ebf0;
+    //background: #fff;
+    ////min-width: 300px;
+    //min-height: 100vh;
+    //padding: 15px;
+
+    .separator {
+        height: 1px;
+        background: #e9ebf0;
+        display: block;
+        margin: 15px -15px;
+    }
+}
+
+.logo  {
+    margin-top: 10px;
+
+    img {
+        height: 22px;
+        float:left;
+    }
+
+    .brand {
+        color: #000;
+        float:left;
+        margin-left: 10px;
+        font-weight: 700;
+    }
+}
+
+.form-search {
+    margin-top: 20px;
+
+    .form-control {
+        border: none;
+        height: 32px;
+        border-radius: 4px;
+        background: #f6f7f9;
+    }
+
+    .btn {
+        border-radius: 4px;
+        background: #f6f7f9;
+        display: block;
+        height: 32px;
+        margin-left: 10px;
+    }
+}
+
+.left-nav-bar {
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+
+    li {
+        padding-bottom: 10px;
+
+        a {
+            color:#53575e;
+            text-decoration: none;
+            font-size: 13.5px;
+
+            i {
+                opacity: 0.8;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.top-nav {
+    height: 51px;
+    background: #fff;
+    border-bottom: 1px solid #e9ebf0;
+    padding: 0 10px 0 15px;
+
+    .logo {
+        height: 24px;
+        float: left;
+        margin-top: 10px;
+    }
+    .name {
+        float:left;
+        font-weight: 700;
+        margin-left: 10px;
+        margin-top: 12px;
+    }
+    .dropdown-menu {
+        a {
+            font-size: 13px;
+        }
+    }
+
+    .btn {
+        margin-top: 8px;
+        margin-left: 20px;
+    }
+}
+

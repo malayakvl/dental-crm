@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,600&display=swap');
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer utilities {
+    .w-245 {
+        width: 245px;
+    }
+    .text-green-notice {
+        color: #00C868;
+        font-size: 0.56rem;
+        @apply block font-bold uppercase mb-1;
+    }
+    .text-gray-notice {
+        color: #4F5B84;
+        @apply block text-xs font-bold mb-1;
+    }
+    .text-m-notice {
+        color:#90A4AE;
+        @apply block text-xs font-bold mb-1;
+    }
+    .red-yellow-gradient {
+        background: linear-gradient(45deg, #CA4573 0%, #EE5342 49.48%, #EFBB58 100%);
+    }
+}
+
+@import "components/page";
+@import "components/sidebar";
+@import "components/table";
+@import "components/form";
+@import "components/sidebar-header";
+
+body, html {
+    @apply text-sm;
+}
+

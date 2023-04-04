@@ -1,0 +1,97 @@
+.table {
+    td {
+        @apply text-sm text-gray-350 font-bold;
+    }
+
+    .actions {
+        i {
+            margin-left: 10px;
+            display: inline-block;
+        }
+        .fa-edit {
+            color:rgb(46, 205, 111);
+        }
+        .fa-trash {
+            color:rgb(181, 188, 194);
+        }
+        .fa-sign-in-alt {
+            color:rgb(168, 117, 255);
+        }
+    }
+
+
+}
+.vgt-inner-wrap {
+   box-shadow: none !important;
+    border-radius: 0px !important;
+}
+
+.vgt-table {
+    //font-size: 14px !important;
+}
+table.vgt-table td {
+    //padding: 5px 8px !important;
+    //font-size: 13px !important;
+    color: #4F5B84 !important;
+    @apply text-xs font-bold;
+
+    .logo {
+        height: 24px;
+    }
+    i {
+        margin-left: 10px;
+        display: inline-block;
+    }
+    .fa-edit {
+        color:rgb(46, 205, 111);
+    }
+    .fa-trash {
+        color:rgb(181, 188, 194);
+    }
+    .fa-sign-in-alt {
+        color:rgb(168, 117, 255);
+    }
+}
+table.vgt-table {
+    th {
+        @apply bg-gray-100 text-sm;
+        //span {
+        //    font-size: 14px !important;
+        //}
+    }
+}
+
+.vgt-input, .vgt-select {
+    padding: 10px 12px !important;
+    border-radius: 8px !important;
+    height: auto !important;
+}
+
+.vgt-global-search {
+    background: none !important;
+    padding-top: 10px !important;
+    padding-bottom: 25px !important;
+    border: none !important;
+}
+.vgt-wrap__footer {
+    font-size: 15px !important;
+    padding: 5px !important;
+    background: none !important;
+    border:none !important;
+}
+.vgt-wrap__footer .footer__row-count__label {
+    font-size: 14px !important;
+}
+.vgt-wrap__footer .footer__navigation {
+    font-size: 14px !important;
+}
+.vgt-wrap__footer .footer__navigation__page-btn span {
+    font-size: 14px !important;
+}
+.vgt-wrap__footer .footer__row-count::after {
+    border: none !important;
+}
+.vgt-wrap__footer .footer__row-count__select {
+    padding-right: 20px !important;
+    font-size: 14px !important;
+}
